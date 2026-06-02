@@ -1,6 +1,4 @@
-pyrogram==2.0.106
 tgcrypto==1.2.5
-pytgcalls==2.1.0
 tgcalls==2.0.0
 yt-dlp
 youtube-search-python
@@ -11,3 +9,6 @@ requests
 ffmpeg-python
 psutil
 pillow
+pyrogram>=2.0.106
+pytgcalls>=3.0.0.dev25
+yt-dlp>=2024.08.06
