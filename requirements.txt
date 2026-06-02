@@ -1,4 +1,12 @@
-pyrogram>=2.0.106
-pytgcalls>=3.0.0.dev25
-yt-dlp>=2024.08.06
-# redis>=5.0.0   # اختياري إذا أردت ريديس
+pyrogram
+tgcrypto
+pytgcalls
+yt-dlp
+youtube-search-python
+aiohttp
+motor
+python-dotenv
+requests
+ffmpeg-python
+psutil
+pillow
