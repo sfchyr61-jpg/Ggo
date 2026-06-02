@@ -1,7 +1,7 @@
 import os
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-STRING_SESSION = os.getenv("STRING_SESSION")
-OWNER_ID = int(os.getenv("OWNER_ID"))
-BOT_NAME = "الموسيقار"
+API_ID = int(os.getenv("38266855"))
+API_HASH = os.getenv("6cc39a629921d107b9f04f6510185f0e")
+BOT_TOKEN = os.getenv("8503726750:AAEaA8bsJtukaZHX8WHr-HYn8NS9Y1qvf5s")
+STRING_SESSION = os.getenv("AgJH5-cAFn8PoNaKAmPsUjG3jNHIZUBX1R2YgbsAGAo4qSKObNr0Be1b4YLnS7zTXNEzdcc5JxwRdAoTtP_zveSZxAuCeNZZjtmxmmdS-rr_J11cL49ss_AsOX4ft6ysyfzIzfVgkBPR4LSDwHDOS_tIPZv4mwqnF_iIZSZzM6jV-05SD-xzs00-ajXL_HIBO6kQYotvMvgoh1nfmYrq5TbUBNK4YSWK8_QaI8DVV3DEqP1Gw0GJR055wBeGKbpS0knf7T-37_gk3k1yJUM5p4DGPFIFhTjyNYXf6K10aTx_MfLNbc6ND0LOQcJwuvrBh4SRmqcILscXUN8HpRvXwlzc-B4ERQAAAAHgw6HVAA")
+OWNER_ID = int(os.getenv("8065884629"))
+BOT_NAME = "Aurelius"
