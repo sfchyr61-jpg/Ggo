@@ -6,7 +6,7 @@ from telegram.ext import (
     MessageHandler, ContextTypes, filters
 )
 
-TOKEN = "PUT_YOUR_TOKEN_HERE"
+TOKEN = "8256801132:AAGmVvzaVcKFB44AabXxuQRW9GrPAHNQ8Hk"
 OWNER_ID = 8065884629
 CHANNEL = "@OxfordMulhdeen"
 
@@ -68,7 +68,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             [InlineKeyboardButton("👥 المستخدمون", callback_data="users")]
         ]
 
-    await update.message.reply_text("📚 اختر القسم", reply_markup=InlineKeyboardMarkup(buttons))
+    await update.message.reply_text(" اختر القسم", reply_markup=InlineKeyboardMarkup(buttons))
 
 async def callbacks(update: Update, context: ContextTypes.DEFAULT_TYPE):
     global books
@@ -85,7 +85,7 @@ async def callbacks(update: Update, context: ContextTypes.DEFAULT_TYPE):
         for name in books.get(cat, {}):
             rows.append([InlineKeyboardButton(name, callback_data=f"book:{cat}:{name}")])
 
-        rows.append([InlineKeyboardButton("🔴 رجوع", callback_data="home")])
+        rows.append([InlineKeyboardButton(" رجوع", callback_data="home")])
         await q.message.edit_text(cat, reply_markup=InlineKeyboardMarkup(rows))
 
     elif data.startswith("book:"):
