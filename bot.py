@@ -7,7 +7,7 @@ from telegram.ext import (
     MessageHandler, ContextTypes, filters
 )
 
-TOKEN = "PUT_YOUR_TOKEN_HERE"
+TOKEN = "8256801132:AAGmVvzaVcKFB44AabXxuQRW9GrPAHNQ8Hk"
 OWNER_ID = 8065884629
 CHANNEL = "@OxfordMulhdeen"
 
